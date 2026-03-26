@@ -8,17 +8,14 @@ async function loadResume() {
         if (!response.ok) throw new Error('File not found');
         const markdown = await response.text();
 
-        // Parse markdown into tokens for granular control
         const tokens = marked.lexer(markdown);
 
-        // 1. Update Name and Document Title
         const h1Token = tokens.find(t => t.type === 'heading' && t.depth === 1);
         if (h1Token) {
             document.getElementById('user-name').innerText = h1Token.text;
             document.title = h1Token.text + ' - Resume';
         }
 
-        // 2. Update Contact Information
         const contactToken = tokens.find(t => t.type === 'paragraph' && t.text.includes('|'));
         if (contactToken) {
             const parts = contactToken.text.split('|').map(p => p.trim().replace(/\*\*/g, ''));
@@ -32,13 +29,11 @@ async function loadResume() {
             `;
         }
 
-        // 3. Update Summary
         const summaryToken = tokens.find((t, i) => i > 0 && t.type === 'paragraph' && !t.text.includes('|'));
         if (summaryToken) {
             document.getElementById('user-summary').innerHTML = marked.parse(summaryToken.text);
         }
 
-        // Helper: Get section content by heading title
         function getSectionHtml(title) {
             const startIdx = tokens.findIndex(t => t.type === 'heading' && t.text.toUpperCase().includes(title.toUpperCase()));
             if (startIdx === -1) return '';
@@ -46,11 +41,9 @@ async function loadResume() {
             const nextHeadingIdx = tokens.findIndex((t, i) => i > startIdx && t.type === 'heading' && t.depth <= tokens[startIdx].depth);
             const sectionTokens = tokens.slice(startIdx + 1, nextHeadingIdx === -1 ? tokens.length : nextHeadingIdx);
 
-            // Return parsed HTML (ignoring thematic breaks)
             return marked.parser(sectionTokens.filter(t => t.type !== 'hr'));
         }
 
-        // 4. Update Main Content (Experience & Projects)
         document.getElementById('main-sections').innerHTML = `
             <section>
                 <h2 class="section-title">Experience</h2>
@@ -62,7 +55,6 @@ async function loadResume() {
             </section>
         `;
 
-        // 5. Update Sidebar Sections
         document.getElementById('sidebar-sections').innerHTML = `
             <div class="sidebar-section">
                 <h3>Technical Skills</h3>
@@ -78,7 +70,6 @@ async function loadResume() {
             </div>
         `;
 
-        // 6. Refresh Icons
         lucide.createIcons();
 
     } catch (err) {
@@ -90,5 +81,4 @@ async function loadResume() {
     }
 }
 
-// Initialize
 loadResume();

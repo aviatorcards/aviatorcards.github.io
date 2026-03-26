@@ -63,7 +63,6 @@ h3 {
     animation: fadeIn 0.6s ease-out forwards;
 }
 
-/* Sidebar Styling */
 aside {
     background: var(--bg-sidebar);
     padding: 3.5rem 2.5rem;
@@ -142,7 +141,6 @@ aside {
     box-shadow: var(--shadow-md);
 }
 
-/* Main Content Styling */
 main {
     padding: 4rem 4.5rem;
 }
@@ -288,7 +286,6 @@ main {
     color: var(--primary-color);
 }
 
-/* Print Styling */
 @media print {
     body {
         background: white;
@@ -320,7 +317,6 @@ main {
     }
 }
 
-/* Global Dynamic Content Styling */
 .experience-content p,
 .education-content p {
     margin-bottom: 0.5rem;
@@ -359,7 +355,6 @@ main {
     font-weight: 800;
 }
 
-/* Skills specifically as a list of tags */
 .skills-content ul {
     display: flex;
     flex-wrap: wrap;

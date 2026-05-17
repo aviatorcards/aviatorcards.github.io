@@ -7,11 +7,18 @@
 
 **Noblesville, IN 46062 | 317.457.2302 | tristan@fddl.dev**
 
-Systems Architect and Full-Stack Developer with over 15 years of experience in heterogeneous infrastructure, private cloud orchestration, and scalable web architectures. Expert in Linux and BSD systems, hardware-level diagnostics, and developing robust platforms that prioritize data sovereignty and operational resilience. Proficient in a wide range of modern languages including **Swift, Kotlin, Python, and Zig**.
+Web Developer and Systems Architect with over 15 years of experience spanning full-stack web platforms, private cloud orchestration, and heterogeneous infrastructure. Build and ship production sites and tools for musicians, artists, and small teams, with deep expertise in Linux and BSD systems, hardware-level diagnostics, and data-sovereign architectures. Proficient across **WordPress/PHP, Python (Django), Next.js/TypeScript, and Swift**.
 
 ---
 
 ### **EXPERIENCE**
+
+**Freelance Web Developer**, Noblesville, IN — _Web Developer_
+**2025 - PRESENT**
+
+- Design, build, and host **WordPress/PHP** sites and custom themes for working musicians and artists, including portfolio sites for Mackenzie Bashore, Allan Rhodes, and others.
+- Developed a reusable **WordPress Electronic Press Kit** plugin that gives artists a bookable, agent-ready digital press kit.
+- Built and maintain the **Indiana Musician Mutual Aid Network (IMMAN)**, a member-driven mutual aid platform connecting Indiana musicians for gear sharing, skill exchange, and emergency support.
 
 **FDDL.DEV Systems**, Noblesville, IN — _Systems Consultant_
 **JANUARY 2021 - PRESENT**
@@ -59,6 +66,16 @@ Systems Architect and Full-Stack Developer with over 15 years of experience in h
 - Designed and developed a full-stack platform utilizing **Django (Python), Next.js, Redis, and PostgreSQL** to solve organizational failures in the music education sector.
 - Streamlined student tracking, scheduling, and band management for independent music teachers and schools.
 
+**StemSplitAudio** — _Audio Stem Separation Tool_
+
+- Built a **Python** tool wrapping yt-dlp and audio-processing libraries to download tracks and separate them into isolated instrument and vocal stems for production and practice.
+- Cross-platform by design, tested on both Ubuntu Studio and macOS.
+
+**[IMMAN](https://fddl.dev/projects/indiana-musician-mutual-aid-network/)** — _Musician Mutual Aid Network_
+
+- Built and maintain a **WordPress** platform powering the Indiana Musician Mutual Aid Network — a peer-run network for gear sharing, skill exchange, and emergency support.
+- Focused on minimal bureaucracy and a member-driven structure to keep musicians connected and performing.
+
 **[Rookery](https://rookery.fddl.dev)** — _Code Snippet Sharing Platform_
 
 - Developed a code sharing utility featuring a "vaporwave" aesthetic, built with **Swift, Vapor, and Freeze**.
@@ -67,10 +84,6 @@ Systems Architect and Full-Stack Developer with over 15 years of experience in h
 **[fddl (Static Site Generator)](https://fddl.fddl.dev)** — _Custom Web Infrastructure_
 
 - Engineered a custom static site generator in **Swift** (originally explored in Rust) to power the personal web infrastructure at `fddl.dev`.
-
-**CatBSD** — _Systems Utility_
-
-- Developed a proof-of-concept utility set for **macOS and FreeBSD** written in **C**, demonstrating low-level systems programming and cross-OS compatibility.
 
 ---
 
@@ -89,8 +102,8 @@ Focused on networking, systems logic, and Linux administration.
 
 ### **SKILLS**
 
-- **Development:** Swift (Vapor), Python (Django), Bash, C, and looking into Zig and Rust.
-- **Mobile & Web:** Next.js, TypeScript, and React - html, css, javascript.
+- **Web Development:** WordPress (custom themes & plugins), PHP, Python (Django), Next.js, TypeScript, React — HTML, CSS, JavaScript.
+- **Development:** Swift (Vapor), Python, Bash, C, and looking into Zig and Rust.
 - **Linux Systems:** Expert-level administration of: **Debian, Ubuntu, and RHEL Linux** proficient with: **Atomic/Immutable systems**
 - **Operating Systems:** knowledge of: **Haiku, OpenIndiana, and Plan 9/9front** proficient with: **Windows, \*BSD, and macOS** administration
 - **DevOps & Infrastructure:** **Proxmox (Virtualization)** Docker, Redis, Celery, Uptime-Kuma, and S3-compatible storage solutions

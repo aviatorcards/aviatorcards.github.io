@@ -25,7 +25,7 @@ Web Developer and Systems Architect with over 15 years of experience spanning fu
 - Execute emergency data recovery and partition restoration using **TestDisk, PhotoRec, and ddrescue** following critical system table overwrites.
 - Develop native macOS tooling in **Swift**, including **[Saddle](https://github.com/aviatorcards/saddle)** (SFTP servers mounted as Finder volumes) and **[crab](https://github.com/aviatorcards/crab)** (throwaway QEMU VMs).
 
-**Megawatt**, Noblesville, IN — _Bitcoin Mining Technician_
+**Megawatt**, Alexandria, IN — _Bitcoin Mining Technician_
 **AUGUST 2023 - APRIL 2025**
 
 - Maintained targeted hash rates for industrial-scale hardware clusters through component-level diagnostics and repair.

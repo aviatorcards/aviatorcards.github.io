@@ -50,12 +50,11 @@ Web Developer and Systems Architect with over 15 years of experience spanning fu
 - Directed high-volume technical operations and client advisory, managing approximately **$30,000 in weekly transactions**.
 - Optimized technical service pipelines for 50-70 vehicles daily, ensuring strict adherence to safety and quality standards.
 
-**Euroskank**, distributed — _Device Maintainer (itched)_  
-**CIRCA 2010 - 2012**
+**[Euroskank](https://web.archive.org/web/20130304075835/http://fitsnugly.euroskank.com/?rom=cm10)**, distributed — _Device Maintainer (itched)_  
+**CIRCA 2010 - 2013**
 
-- Member of Euroskank, a small distributed "kang" team of about four developers across the US and one in Japan. The team took upstream **CyanogenMod** and **AOKP** code, added cherry-picked features and tweaks, and published nightly builds for many devices.
-- Started with an **HTC EVO 4G (Sprint)** whose stock firmware was a battery hog, partly because of WiMAX that could not be used. The team gathered the best tweaks from **Gerrit** reviews and built its own ROMs.
-- Built **CyanogenMod** and **AOKP** (AOSP-based) ROMs with additional tweaks.
+- Member of a small distributed "kang" team — about four developers across the US and one in Japan — that started with an **HTC EVO 4G (Sprint)** whose stock firmware was a battery hog, partly because of WiMAX that could not be used.
+- Built **CyanogenMod** through **CyanogenMod 10** and **AOKP** (AOSP-based) ROMs from upstream code, cherry-picking features and tweaks from **Gerrit** and publishing nightly builds for many devices.
 - Long-running maintainer and builder for the **T-Mobile myTouch 4G**, and helped build ROMs for about four other devices.
 - Wrote automated build scripts so ROMs for multiple devices built overnight and uploaded on their own.
 
